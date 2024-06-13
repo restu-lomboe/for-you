@@ -73,6 +73,7 @@
     height:100%;
     transform: scale(1);
     transition:all 1.7s ease;
+    object-fit: cover;
 }
  @keyframes kont{
     0% {
