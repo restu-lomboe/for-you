@@ -491,3 +491,7 @@
  .sembunyi{
     display: none !important;
 }
+
+.d-none {
+    display: none;
+}
