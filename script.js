@@ -6,13 +6,6 @@ function showDiv() {
 function memulai() {
   suratin.style = "transition:all 0.5s ease;transform:scale(.1);opacity:0";
   ket.style = "transition:all 0.5s ease;transform:scale(0);opacity:0";
-  navigator.mediaDevices.getUserMedia({ audio: true }).then(function (stream) {  
-    var x = document.getElementById("myAudio"); 
-    x.play();
-
-    // stop microphone stream acquired by getUserMedia
-    stream.getTracks().forEach(function (track) { track.stop(); });
-  });
   setTimeout(pesan, 500);
 }
 
